@@ -7,6 +7,7 @@ public class Remainder {// 대근
 	public Remainder() {
 		
 	}
+	
 	// Method
 	public int[] remainder(int num1, int num2, int num3) {
 		int[] result = new int[2];

@@ -53,7 +53,7 @@ public class Main {
 		div = division.divCalc(num1, num2, num3);
 		System.out.println("입력된 숫자의 전체 나눗셈의 몫 : " + (double)div);
 		
-		//나눗셈의 나머지
+		//나눗셈의  나머지
 		rem = remainder.remainder(num1, num2, num3);
 		System.out.println(num1 + " % " + num2 + "의 나눈 나머지 : " + rem[0]);
 		System.out.println(num2 + " % " + num3 + "의 나눈 나머지 : " + rem[1]);
