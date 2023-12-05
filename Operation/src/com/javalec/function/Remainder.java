@@ -12,6 +12,6 @@ public class Remainder {// 대근
 		int[] result = new int[2];
 		result[0] = num1 % num2;
 		result[1] = num2 % num3;
-		return result;
+		return result; 
 	}
 }
