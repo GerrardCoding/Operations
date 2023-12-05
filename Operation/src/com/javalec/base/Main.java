@@ -42,7 +42,7 @@ public class Main {
 		System.out.println("입력된 숫자의 전체 덧셈 : " + sum);
 		
 		//차
-		sub = subtraction.Subtraction(num1, num2, num3);
+		sub = subtraction.Subtraction(num1, num2, num3); 
 		System.out.println("입력된 숫자의 전체 뺄셈 : " + sub);
 		
 		//곱
