@@ -11,7 +11,7 @@ public class Subtraction {// 수민
 
 		
 	// Method
-	public int Subtraction (int num1, int num2, int num3) {
+	public int subtraction (int num1, int num2, int num3) {
 		int result = (num1 - num2 - num3);
 		return result;
 	}

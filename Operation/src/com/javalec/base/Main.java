@@ -37,12 +37,12 @@ public class Main {
 		System.out.print("세번째 숫자를 입력하여 주세요 : ");
 		num3 = scanner.nextInt();
 		
-		//합ad
+		//합
 		sum = addition.sumCalc(num1, num2, num3);
 		System.out.println("입력된 숫자의 전체 덧셈 : " + sum);
 		
 		//차
-		sub = subtraction.Subtraction(num1, num2, num3); 
+		sub = subtraction.subtraction(num1, num2, num3); 
 		System.out.println("입력된 숫자의 전체 뺄셈 : " + sub);
 		
 		//곱
@@ -54,7 +54,7 @@ public class Main {
 		System.out.println("입력된 숫자의 전체 나눗셈의 몫 : " + (double)div);
 		
 		//나눗셈의 나머지
-		rem = remainder.Remainder(num1, num2, num3);
+		rem = remainder.remainder(num1, num2, num3);
 		System.out.println(num1 + " % " + num2 + "의 나눈 나머지 : " + rem[0]);
 		System.out.println(num2 + " % " + num3 + "의 나눈 나머지 : " + rem[1]);
 				
