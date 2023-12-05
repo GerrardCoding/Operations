@@ -37,7 +37,7 @@ public class Main {
 		System.out.print("세번째 숫자를 입력하여 주세요 : ");
 		num3 = scanner.nextInt();
 		
-		//합
+		//합ad
 		sum = addition.sumCalc(num1, num2, num3);
 		System.out.println("입력된 숫자의 전체 덧셈 : " + sum);
 		
@@ -46,7 +46,8 @@ public class Main {
 		System.out.println("입력된 숫자의 전체 뺄셈 : " + sub);
 		
 		//곱
-		System.out.println("입력된 숫자의 전체 곱 : ");
+		multiple = multiplication.calMul(num1, num2, num3);
+		System.out.println("입력된 숫자의 전체 곱 : " + multiple);
 		
 		//나눗셈
 		div = division.divCalc(num1, num2, num3);

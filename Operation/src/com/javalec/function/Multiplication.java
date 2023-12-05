@@ -17,5 +17,5 @@ public class Multiplication {// 수진
 		return result;
 		
 		
-	}
+	} 
 }
