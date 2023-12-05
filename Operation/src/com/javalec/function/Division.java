@@ -11,7 +11,7 @@ public class Division {
 		
 	// Method
 	// 숫자 3개를 나누기.
-	public int divCalc(int num1, int num2, int num3) {
+	public int division(int num1, int num2, int num3) {
 		int result = num1/num2/num3;
 		return result;
 	}
